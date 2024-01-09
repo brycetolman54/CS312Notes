@@ -1,2 +1,6 @@
 # CS312Notes
-Git hub to hold my notes and homework for CS312
+
+1. (January 9: Intro to Class)[Jan9.md]
+
+
+
