@@ -1,6 +1,6 @@
 # CS312Notes
 
 1. [January 9: Intro to Class](Jan9.md)
-
+2. [January 11: Complexity (BigO, BigOmega, BigTheta)](Jan11.md)
 
 
