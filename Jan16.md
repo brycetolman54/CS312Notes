@@ -26,7 +26,7 @@
 |   2   |   0   |        1        |      ----      |   NA  |       1      |
  
 - What's the complexity?
-    - see the code here: [ModExp Code](../Codes/Jan16.py)
+    - see the code here: [ModExp Code](Codes/Jan16.py)
 
 
 # Fermat's Theorem
