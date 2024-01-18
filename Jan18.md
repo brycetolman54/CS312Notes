@@ -18,19 +18,22 @@
             else return Euclid(b, a mod b)
 
         - Example:
-            a   b
-           --- ---
-            15  12
-            12  3
-            3   0
+    
+          |   a   |   b   |
+          | :---: | :---: |
+          |  15   |  12   |
+          |  12   |   3   |
+          |   3   |   0   |
         - Other Example:
-            a   b
-           --- ---
-            15  11
-            11  4
-            4   3
-            3   1
-            1   0
+    
+          |   a   |   b   |
+          | :---: | :---: |
+          |  15   |  11   |
+          |  11   |   4   |
+          |   4   |   3   |
+          |   3   |   1   |
+          |   1   |   0   |
+          
     - What's the complexity? (for recursion, ask these questions)
         - How much does the algorithm cost to do once? (n<sup>2</sup> because we have to do division each time with mod and that is n<sup>2</sup>)
         - How many times do we do it? (we cut it in half each time, we drop a bit each time, so we have to do it n times since we have n bits)
@@ -72,6 +75,8 @@
 |  20   |  19   |   0   |   1   |   1   |    1   |   -1   |    1   |
 |  19   |   1   |   1   |   0   |   1   |    0   |    1   |    1   |
 |   1   |   0   | ----- | ----- | ----- |    1   |    0   |    1   |
+
+- Since we switch a and b, ax becomes by and by becomes ax in ax + by = d mod N
  
 - What is the complexity?
     - For one run time? (we have n<sup>2</sup> becuase of the mod and the floor and the multiply)
