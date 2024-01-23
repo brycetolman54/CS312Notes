@@ -10,13 +10,13 @@
 - How do we find the gcd of x and y?
     - gcd(x,y) = gcd(x mod y,y)
     - Here's a function
-        - Function euclid(a,b)
+      ```Function euclid(a,b)
             Input: two integers a and b with a >= b >= 0
             Output: gcd(a,b)
 
             if b = 0 return a
             else return Euclid(b, a mod b)
-
+      ```
         - Example:
     
           |   a   |   b   |
@@ -52,14 +52,14 @@
 # Extended Euclid
 
 - This will tell us if two things are relatively prime and will tell us the multiplicative inverse of the __a__
-    - Fucntion ExtendedEuclid(a, b)
+  ```Fucntion ExtendedEuclid(a, b)
         Input: a and b such that a >= b >= 0
         Output: gcd (d) and x and y
 
         if b = 0: return (1,0,a)
         (x',y',d) = ExtendedEuclid(b, a mod b)
         return (y',x' - floor(a/b)y',d)
-
+  ```
 - Example:
     - 9 mod 11 divided by 3 mod 11
     - Inverse of 3 mod 11 is 4
