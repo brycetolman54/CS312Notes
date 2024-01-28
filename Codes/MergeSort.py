@@ -42,7 +42,7 @@ if __name__ == "__main__":
     
     # make sure we have enough arguments
     if len(sys.argv) < 2:
-        print("\u001b[38;5;160m\tUsage: python MergeSort.py <numbers> \n\t  or \n       \tpython MergeSort.py r<number>\u001b[38;5;15m")
+        print("\u001b[38;5;160m\tUsage: python MergeSort.py <numbers> \n\t\t  or \n\t       python MergeSort.py r<number>\u001b[38;5;15m")
         sys.exit(1)
 
     # if we want a random array
