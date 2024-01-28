@@ -1,6 +1,3 @@
-# Divide and Conquer (Part 2)
-
-
 # Convex Hull
 
 - Basic Algorithm
@@ -108,4 +105,4 @@
                 - b = 3
                 - d = 1
                 - ratio = 1/3 < 1
-                - So, O(n<sub>1</sub>)
+                - So, O(n<sup>1</sup>)
