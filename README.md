@@ -7,7 +7,12 @@
 4. [January 18: Euclid and Cryptography](Notes/Jan18.md)
 5. [January 23: Divide and Conquer](Notes/Jan23.md)
 6. [January 24: Convex Hull Project, More Divide and Conquer, and Median](Notes/Jan25.md)
+7. [January 30: Graphs](Notes/Jan30.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
+
+
+## TODO
+- [ ] Write code to do DFS (make it take in the nodes and the edges and return the pre and post order numbers of the nodes) 
 
