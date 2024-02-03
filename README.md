@@ -8,9 +8,11 @@
 5. [January 23: Divide and Conquer](Notes/Jan23.md)
 6. [January 24: Convex Hull Project, More Divide and Conquer, and Median](Notes/Jan25.md)
 7. [January 30: Graphs](Notes/Jan30.md)
+8. [February 1: Graph Connectedness](Notes/Feb1.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
+2. [Project 2: Convex Hull](Projects/ConvexHull)
 
 
 ## TODO
