@@ -9,7 +9,8 @@
 6. [January 24: Convex Hull Project, More Divide and Conquer, and Median](Notes/Jan25.md)
 7. [January 30: Graphs](Notes/Jan30.md)
 8. [February 1: Graph Connectedness](Notes/Feb1.md)
-9. [February 5: Graph Paths](Notes/Feb6.md)
+9. [February 6: Graph Paths](Notes/Feb6.md)
+10. [February 8: Graph Paths Continued and Network Routing Project](Notes/Feb8.md) 
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
