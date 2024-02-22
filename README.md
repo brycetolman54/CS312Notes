@@ -13,6 +13,7 @@
 10. [February 8: Graph Paths Continued and Network Routing Project](Notes/Feb8.md) 
 11. [February 13: Finishing Graphs and Greedy Algorithms](Notes/Feb13.md)
 12. [February 15: Greedy Algorithms and Huffman](Notes/Feb15.md)
+13. [February 22: More Greedy and Test Review](Notes/Feb22.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
