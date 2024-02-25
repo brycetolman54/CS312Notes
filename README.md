@@ -18,6 +18,7 @@
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
 2. [Project 2: Convex Hull](Projects/ConvexHull)
+3. [Project 3: Network Routing](Projects/NetworkRouting)
 
 
 ## TODO
