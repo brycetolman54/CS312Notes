@@ -13,14 +13,12 @@
 10. [February 8: Graph Paths Continued and Network Routing Project](Notes/Feb8.md) 
 11. [February 13: Finishing Graphs and Greedy Algorithms](Notes/Feb13.md)
 12. [February 15: Greedy Algorithms and Huffman](Notes/Feb15.md)
-13. [February 22: More Greedy and Test Review](Notes/Feb22.md)
+13. [February 22: More Greedy and Test Review](Notes/Feb22)
+14. [February 29: Dynamic Programming](Notes/Feb29.md)
+15. [March 5: Dynamic Programming 2 and Gene Sequencing Project](Notes/Mar5.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
 2. [Project 2: Convex Hull](Projects/ConvexHull)
 3. [Project 3: Network Routing](Projects/NetworkRouting)
-
-
-## TODO
-- [ ] Write code to do DFS (make it take in the nodes and the edges and return the pre and post order numbers of the nodes) 
 
