@@ -15,10 +15,14 @@
 12. [February 15: Greedy Algorithms and Huffman](Notes/Feb15.md)
 13. [February 22: More Greedy and Test Review](Notes/Feb22)
 14. [February 29: Dynamic Programming](Notes/Feb29.md)
-15. [March 5: Dynamic Programming 2 and Gene Sequencing Project](Notes/Mar5.md)
+15. [March 5: Dynamic Programming 2 (Knapsack)](Notes/Mar5.md)
+16. [March 7: Dynamic Programming 3](Notes/Mar7.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
 2. [Project 2: Convex Hull](Projects/ConvexHull)
 3. [Project 3: Network Routing](Projects/NetworkRouting)
 
+- For triangle, do DFS and make the leaf the min if it is the smallest path so far
+- For course schedule, do the idea you had on a homework to see if all conditionals could be met
+    - Put all prereqs into a list and see if any are required by themselves
