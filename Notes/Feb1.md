@@ -1,3 +1,14 @@
+
+---
+title: Homework 12
+author: Bryce Tolman
+date: "2024-03-10"
+toc: true
+margin-left: 0.5in
+yntax-highlighting: true
+---
+
+
 # Graphs Continued
 
 - Forward edges: go down the tree to descendant (not child)
@@ -53,3 +64,11 @@
 
 - Helps us find the shortest path between two nodes
 
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
