@@ -5,7 +5,7 @@ author: Bryce Tolman
 date: "2024-03-10"
 toc: true
 margin-left: 0.5in
-yntax-highlighting: true
+syntax-highlighting: true
 ---
 
 
