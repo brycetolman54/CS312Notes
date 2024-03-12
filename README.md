@@ -17,6 +17,7 @@
 14. [February 29: Dynamic Programming](Notes/Feb29.md)
 15. [March 5: Dynamic Programming 2 (Knapsack)](Notes/Mar5.md)
 16. [March 7: Dynamic Programming 3](Notes/Mar7.md)
+17. [March 12: Linear Programming](Notes/Mar11.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
