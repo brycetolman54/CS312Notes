@@ -19,6 +19,7 @@
 16. [March 7: Dynamic Programming 3](Notes/Mar7.md)
 17. [March 12: Linear Programming](Notes/Mar11.md)
 18. [March 14: Duality and Zero-sum Game](Notes/Mar14.md)
+19. [March 19: Intelligent Search](Notes/Mar19.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
