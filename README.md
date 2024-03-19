@@ -25,6 +25,7 @@
 1. [Project 1: Fermat](Projects/Fermat)
 2. [Project 2: Convex Hull](Projects/ConvexHull)
 3. [Project 3: Network Routing](Projects/NetworkRouting)
+4. [Project 4: Gene Sequencing](Projects/GeneSequencing)
 
 - For triangle, do DFS and make the leaf the min if it is the smallest path so far
 - For course schedule, do the idea you had on a homework to see if all conditionals could be met
