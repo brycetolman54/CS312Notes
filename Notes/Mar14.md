@@ -4,8 +4,13 @@
 - So, if you can solve the sister (dual) problem, you can get insight into the original (primal) problem
 - Example: Chocolae Shop Redux problem
     - Objective function:
-        - max $`x_1 + 6x_2 + 13x_3`$
-    - Constraints: $`x_1 \leq 200  x_2 \leq 300 \newline x_1 + x_2 + x_3 \leq 400 \newline x_2 + 3x_3 \leq 600 \newline x_1, x_2, x_3 \geq 0`$
+        - $`max \quad x_1 + 6x_2 + 13x_3`$
+    - Constraints:
+        - $`x_1 \leq 200`$
+        - $`x_2 \leq 300`$
+        - $`x_1 + x_2 + x_3 \leq 400`$
+        - $`x_2 + 3x_3 \leq 600`$
+        - $`x_1, x_2, x_3 \geq 0`$
     - Let's say that we take the third constraint and multiply by 13 to make it similar to the objective function
     - This will let us put a max constraint on the problem  because 13 times the third constraint gives us something for sure greater than or equal to the objective function (because all variables in that constraint are now greater than or equal to the ones in the objective function)
     - We can come up with multiple ways to do this same thing with combinations of the constraints
@@ -52,7 +57,14 @@
 - The objective function for the column player would be $`min(0x_1 - 3x_2 + 5x_3, 1x_1 + 0x_2 - 6x_3, -2x_1 + 4x_2 + 0x_3)`$
 - The objectinve function for hte column player would, knowing this, be $`max(min(0x_1 - 3x_2 + 5x_3, 1x_1 + 0x_2 - 6x_3, -2x_1 + 4x_2 + 0x_3))`$
     - With constraints $`x_1 + x_2 + x_3 = 1`$ and $`x_1, x_2, x_3 \geq 0`$
-- We can rewrite this last to be: $`max \quad z \newline subject \quad to \newlinex_1 + x_2 + x_3 = 1 \newline0x_1 - 3x_2 + 5x_3 \geq z \newline1x_1 + 0x_2 -6x_3 \geq z \newline-2x_1 + 4x_2 + 0x_3 \geq z \newlinex_1, x_2, x_3 \geq 0 \\`$
+- We can rewrite this last to be:
+    - $`max \quad z`$
+    - $`subject \quad to`$
+    - $`x_1 + x_2 + x_3 = 1`$
+    - $`0x_1 - 3x_2 + 5x_3 \geq z`$
+    - $`x_1 + 0x_2 -6x_3 \geq z`$
+    - $`-2x_1 + 4x_2 + 0x_3 \geq z`$
+    - $`x_1, x_2, x_3 \geq 0`$
 
 - Now you can manipulate z until it hits the first of those constraints (that is the minimum)
 - You can do the same thing with the column player now
