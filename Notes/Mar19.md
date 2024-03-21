@@ -21,15 +21,15 @@
 
 ```mermaid
 graph TD;
-    A--B[10]
-    A--C[8
-    A--D[12]
-    B--E[8]
-    B--F[15]
-    C--D[7]
-    D--E[9]
-    E--G[9]
-    F--G[6]
+    A<-- 10 -->B;
+    A<-- 8 -->C;
+    A<-- 12 -->D;
+    B<-- 8 -->E;
+    B<-- 15 -->F;
+    C<-- 7 -->D;
+    D<-- 9 -->E;
+    E<-- 9 -->G;
+    F<-- 6 -->G;
 ```
 
 
@@ -50,9 +50,9 @@ graph TD;
 
 ```mermaid
 graph TD;
-    A--B["10+6=16"]
-    A--C["8+7=15"]
-    A--D["12+5=17"]
+    A<-- 10+6=16 -->B
+    A<-- 8+7=15 -->C
+    A<-- 12+5=17 -->D
 ```
 
     - If one of those nodes is the complete solution (<i>E</i> in this case), update the <b>BSSF</b>
@@ -62,10 +62,10 @@ graph TD;
 
 ```mermaid
 graph TD;
-    A--B[16]
-    A--C[15]
-    A--D[17]
-    C--D'["8+7+5=20"]
+    A<-- 16 -->B
+    A<-- 15 -->C
+    A<-- 17 -->D
+    C<-- 8+7+5=20 -->D'
 ```
 
     - Now let's pop off B
@@ -75,18 +75,18 @@ graph TD;
 
 ```mermaid
 graph TD;
-    A--B[16]
-    A--C[15]
-    A--D[17]
-    C--D'["8+7+5=20"]
-    B--F
-    B--E["10+8=18"]
+    A<-- 16 -->B
+    A<-- 15 -->C
+    A<-- 17 -->D
+    C<-- 8+7+5=20 -->D'
+    B<-->F
+    B<-- 10+8=18 -->E
 ```
 
-    - Now we get to D
-        - It's lower bound is less than the <b>BSSF</b> so we have to check it
-    - Then we get to D' and drop it because it has a worse lower bound
-    - Then we are done!
+- Now we get to D
+    - It's lower bound is less than the <b>BSSF</b> so we have to check it
+- Then we get to D' and drop it because it has a worse lower bound
+- Then we are done!
 
 - This <b>DOES</b> give an optimal solution
 - It is exponential, but it is pretty quick still
