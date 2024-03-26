@@ -21,6 +21,7 @@
 18. [March 14: Duality and Zero-sum Game](Notes/Mar14.md)
 19. [March 19: Intelligent Search](Notes/Mar19.md)
 20. [March 21: Intelligent Search II](Notes/Mar21.md)
+21. [March 26: NP Completeness](Notes/Mar26.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
