@@ -22,6 +22,7 @@
 19. [March 19: Intelligent Search](Notes/Mar19.md)
 20. [March 21: Intelligent Search II](Notes/Mar21.md)
 21. [March 26: NP Completeness](Notes/Mar26.md)
+22. [March 28: Approximation and Local Search](Notes/Mar28.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
