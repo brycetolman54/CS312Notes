@@ -23,12 +23,14 @@
 20. [March 21: Intelligent Search II](Notes/Mar21.md)
 21. [March 26: NP Completeness](Notes/Mar26.md)
 22. [March 28: Approximation and Local Search](Notes/Mar28.md)
+23. [April 2: Machine Learning](Notes/Apr2.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
 2. [Project 2: Convex Hull](Projects/ConvexHull)
 3. [Project 3: Network Routing](Projects/NetworkRouting)
 4. [Project 4: Gene Sequencing](Projects/GeneSequencing)
+5. [Project 5: Travelling Salesperson](Projects/TravellingSalesPerson)
 
 - For triangle, do DFS and make the leaf the min if it is the smallest path so far
 - For course schedule, do the idea you had on a homework to see if all conditionals could be met
