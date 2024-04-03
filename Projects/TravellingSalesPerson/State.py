@@ -11,8 +11,6 @@ class State:
         self.rows = rows
         self.path = path
         self.index = index
-#        self.Infinitize(parentIndex, index)
-#        self.ReduceMatrix()
 
     def ReduceMatrix(self):
 

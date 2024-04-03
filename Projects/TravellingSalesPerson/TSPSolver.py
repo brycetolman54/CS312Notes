@@ -90,11 +90,11 @@ class TSPSolver:
         cities = self._scenario.getCities()
 
 
+        # get the start time
+        start = time.time()
+
         # loop through all the cities in the scenario and find the path from each
         for c1 in cities:
-
-            # start the time
-            start = time.time()
             
             # initialize the solution and the cost for it
             cSolution = []
@@ -137,8 +137,6 @@ class TSPSolver:
                 cCost += bestDistance
                 outCity = bestCity
 
-            end = time.time()
-
 
             # stop with this city if there is no solution
             if noSolution:
@@ -149,7 +147,8 @@ class TSPSolver:
             if cCost < bestSolution['cost']:
                 bestSolution['cost'] = cCost
                 bestSolution['soln'] = cSolution
-                bestSolution['time'] = end - start
+
+        end = time.time()
 
 
         bssf = TSPSolution(bestSolution['soln'])
@@ -157,7 +156,7 @@ class TSPSolver:
         # set up and return the result
         results = {}
         results['cost'] = bssf.cost
-        results['time'] = bestSolution['time']
+        results['time'] = end - start
         results['count'] = numSolutions
         results['soln'] = bssf
         results['max'] = None
