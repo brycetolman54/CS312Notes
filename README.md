@@ -24,6 +24,7 @@
 21. [March 26: NP Completeness](Notes/Mar26.md)
 22. [March 28: Approximation and Local Search](Notes/Mar28.md)
 23. [April 2: Machine Learning](Notes/Apr2.md)
+24. [April 4: Genetic Algorithms](Notes/Apr4.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
