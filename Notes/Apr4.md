@@ -33,3 +33,10 @@ Until Done {Sufficient iterations passed with no improvement (BSSF), or sufficie
 - Again, we want the most fit solutions to be the ones we carry on, but we don't want to get rid of the least fit still
 - We use the <i>Fitness Proportionate Selection</i> model to make the most fit more likely to survive
     - $`Pr(h_i)=\frac{Fitness(h_i)}{\sum_{j=1}^{|population|}Fitness(h_j)}`$
+
+## Fitness Function Evaluation
+
+- Each solution needs to have a fitness based on the fitness function, which depends on the application
+- Sometimes it's easy (knapsack value, length of path in TSP, accuracy of learning model with a set of weights)
+- Stopping criteria: usually just looking at when the best candidates stop improving
+    - Keep a BSSF and stop if after <i>m</i> generations, if the BSSF doesn't change, stop
