@@ -32,4 +32,4 @@ Until Done {Sufficient iterations passed with no improvement (BSSF), or sufficie
 
 - Again, we want the most fit solutions to be the ones we carry on, but we don't want to get rid of the least fit still
 - We use the <i>Fitness Proportionate Selection</i> model to make the most fit more likely to survive
-    - $`Pr(h_i)=Fitness(h_i)/\sigma_(j=1)^|population|Fitness(h_j)`$
+    - $`Pr(h_i)=\frac{Fitness(h_i)}{\sum_{j=1}^{|population|}Fitness(h_j)}`$
