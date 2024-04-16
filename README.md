@@ -25,6 +25,8 @@
 22. [March 28: Approximation and Local Search](Notes/Mar28.md)
 23. [April 2: Machine Learning](Notes/Apr2.md)
 24. [April 4: Genetic Algorithms](Notes/Apr4.md)
+25. [April 9: Random Algorithms](Notes/Apr9.md)
+26. [April 16: Exam Review](Notes/Apr16.md)
 
 ## Projects
 1. [Project 1: Fermat](Projects/Fermat)
